@@ -36,32 +36,32 @@ MATLAB2018自带的配置文件无法查找到VS2019（MATLAB2018先发布，当
 
 # vs2015配置
 
-*  **新建工程**
+  **新建工程**
 
 
  ![](img/project.png)
 
 
-* 将matlab 生成的`.h`文件移动到与cpp文件同一个文件夹。并在该文件夹新建libs文件夹，并将生成的lib移动到该文件夹。
+ **将matlab 生成的`.h`文件移动到与cpp文件同一个文件夹。并在该文件夹新建libs文件夹，并将生成的lib移动到该文件夹。**
 
 
-![](\img/folder.png)
+![](img/folder.png)
 
-* 在vs界面添加上一步生成的头文件
+**在vs界面添加上一步生成的头文件**
 
 ![](img/head.png)
-* 工程属性,添加`matlab`包含目录。
+
+**工程---性,添加`matlab`包含目录。**
 
 ![](img/include.jpg)
 
-添加库目录，包含matlab目录与上一步我们创建的目标
+**添加库目录，包含matlab目录与上一步我们创建的目标**
 ![](img/add.png)
 
-* 将`C:\Program Files\MATLAB\R2018b\extern\lib\win64\mingw64`下的文件名
-与matlab生成的lib名添加到链接器，输入
+**将`C:\Program Files\MATLAB\R2018b\extern\lib\win64\mingw64`下的文件名与matlab生成的lib名添加到链接器，输入**
 ![](img/input.jpg)
 
-* vs 生成。将matlab生成的`dll`文件移动到`exe`一个文件夹下
+**vs 生成。将matlab生成的`dll`文件移动到`exe`一个文件夹下**
 
 ![](img/dll.jpg)
 
@@ -146,5 +146,8 @@ int main()
 
 }
 ````
+
+*  参考
+
 ********************
-### opencv 设置
+#  opencv 设置
