@@ -5,7 +5,6 @@ matlab 生成dll库文件给vs2015调用。两者配置。
 ****
 
 
-
 # matlab 初始配置
 MATLAB2018自带的配置文件无法查找到VS2019（MATLAB2018先发布，当然找不到VS2019），但是我们可以通过修改配置文件的方式让其能够支持VS2019(貌似MATLAB2016及以上的版本都可以)。
 
@@ -148,6 +147,7 @@ int main()
 ````
 
 *  参考
+https://www.youtube.com/watch?v=DWzpBEGrMs4&list=LL&index=1&t=450s
 
 ********************
 #  opencv 设置
